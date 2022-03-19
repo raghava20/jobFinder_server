@@ -1,7 +1,4 @@
 import { Account } from "../models/Account.js";
-import { CandidateProfile } from "../models/CandidateProfile.js";
-
-
 
 //get all user's profiles
 export const getAllProfiles = async (req, res) => {
